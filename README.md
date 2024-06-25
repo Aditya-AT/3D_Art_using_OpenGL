@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is a culmination of the learning objectives from the Computer Graphics course, focusing on building a complex 3D scene. The chosen theme for the final programming assignment is a festive Christmas scene featuring a detailed Christmas tree surrounded by gifts, utilizing various aspects of 3D rendering including transformations, camera manipulation, shading, and texture mapping.
+This project focuses on building a complex 3D scene. The chosen theme for the final programming assignment is a festive Christmas scene featuring a detailed Christmas tree surrounded by gifts, utilizing various aspects of 3D rendering including transformations, camera manipulation, shading, and texture mapping.
 
 ## Features
 
@@ -11,6 +11,14 @@ This project is a culmination of the learning objectives from the Computer Graph
 - **Camera System**: Implements non-default camera positioning to capture the festive setup from the best angles, enhancing the visual appeal.
 - **Lighting and Shading**: Incorporates at least one point light source to simulate a cozy, festive glow, with Phong shading to give depth and realism to the objects.
 - **Texture Mapping**: Uses both image-based and procedural textures to add detail to the Christmas tree and the gifts, making them look as realistic as possible.
+
+## Implementation
+The scene is built using a combination of techniques covered in the course:
+
+- **Model Transformation**: Objects are modeled in local coordinates and transformed using model transformations.
+- **Viewing Transformation**: Camera settings are adjusted to optimize the scene's visibility.
+- **Projection Transformation**: Both orthographic and perspective projections are explored.
+- **Illumination and Shading**: The Phong model is used to simulate realistic lighting.
 
 ## Installation
 
